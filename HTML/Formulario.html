@@ -1,0 +1,80 @@
+<!---Indica que este tipo es HTML -->
+<!DOCTYPE html>
+<!-- Engloba to el codigo HTML -->
+<html lang="en">
+  <!--
+  La cabezera de la pagina, contiene informacion que no forma parte del contenido de la pagina.
+  Pero que contiene informacion utiles para los buscadores como Google.
+  -->
+<head>
+  <!--Conjunto de caracteres manejados por la pagina web-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--Formulario-->
+  <form action>
+      <!--Etiqueta de input-->
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
+    <br>
+    <label for="fecha_de_nacimiento">Fecha de naciemiento</label>
+    <input type="date" id="fecha_de_nacimiento" name="fecha_de_nacimiento">
+    <br>
+    <label for="genero">Genero</label>
+    <select name="genero" id="genero">
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+        <option value="otro">Otro</option>
+    </select>
+    <br>
+    </label for="numero_telefono">Numero de telefono</label>
+    <input type="tel" id="numero_telefono" name="numero_telefono">
+    <br>
+    <label for="emil">Email</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="passwork">Contraseña</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <label for="incapacidad">Tiene alguna incapacidad?</label>
+    <input type="radio" name="incapacidad_si" id="incapacidad" value="Si">
+    <label for="incapacidad">Si</label>
+    <input type="radio" name="incapacidad_no" id="incapacidad" value="No">
+    <label for="incapacidad">No</label>
+    <br>
+    <label for="Breve descripcion de tu persona">Breve descripcion de tu persona</label>
+    <textarea name="descripcion" id="Breve descripcion de tu persona" cols="20" rows="5"></textarea>
+    <br>
+
+    <!--Proyecto de HTML
+    Realizar una pagina que funcione como tu cv, el cual debe contener:
+    - Tu nombre
+    - Tu fecha de nacimiento
+    - Tu genero
+    - Tu numero de telefono
+    - Tu email
+
+    - Experiencia laboral
+    - Habilidades
+    - Estudios realizados
+
+    Debe utilizar etiquetas semanticas, como por ejemplo:
+    - header
+    - section
+
+    etc.
+
+    Debes de agregar un formulario de contacto al final, de tener:
+    - Un campo para el nombre
+    - Un campo para el email
+    - Un campo para el numero de telefono
+    - Un campo para un mensaje
+
+    Puedes agregar botones, imagenes, videos, etc. para hacer tu cv mas atractivo.
+
+    Fecha de entrega: 16/02/26/.
+    -->
+</body>
+</html>
