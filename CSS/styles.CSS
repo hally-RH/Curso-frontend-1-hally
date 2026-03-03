@@ -1,0 +1,39 @@
+/* 
+  * es el selector universal, selecciona todos los elementos del documento.
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px;
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
+/* ctrl + / para comentar una linea
+Asi se escriben los comentarios en CSS
+Pueden ser multi linea
+*/
+
+.boton-destacado{
+    /*Color de fondo
+    Los colores pueden ser escritos de varias formas:
+    - Nombre del color: red, blue, green, etc.
+    - Hexadecimal: #RRGGBB.
+    - RGB: rgb(255, 0, 0) para rojo, rgb(0, 255, 0) para verde, rgb(0,0,0) para negro.
+    */
+    
+    background-color:#33bbff;
+    /* Color de texto */
+    color: white;
+    /* Bordes redondeados*/
+    /* 
+    Medidas absolutas: px, cm, mm, in, pt, pc
+    Medidas relativas: em, rem, vw, vh, vmin, vmax, %
+    */
+    border-radius: 100px;
+}

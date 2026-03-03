@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS Practice">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.CSS" />
+    <style>
+      #resaltado {
+        color:blue;
+        font-weight: bold;
+      }
+      .destacado {
+        color:green;
+        font-style: italic;
+      }
+      span {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS In line -->
+     <h1 style="color:red;">Hola mundo</h1>
+     <!-- CSS In Block -->
+      <!--
+     ID: Es un identificador unico para un elemento, se representa con #
+     Clase: Es una clase que se puede compartir entre varios elementos, se representa con . 
+     -->
+     <p id="resaltado">
+      Este texto esta resaltado con CSS In Block
+     </p>
+     <!-- p.descatado{Somos clasistas}*3 -->
+     <p class="destacado">Somos <span>muy</span> clasistas</p>
+     <p class="destacado">Somos <span>muy</span> clasistas</p>
+     <p class="destacado">Somos <span>muy</span> clasistas</p>
+     <a href="#" class="destacado">Soy un link clasista
+     </a>
+     <button class="boton-destacado">
+      Soy un boton destacado
+      </button>
+      <!--
+      Que es mas prioritario?
+      #nav .destacado .importante p #menu
+      o
+      #menu .importante .destacado #nav 
+
+      -->
+    </body>
+  </html>
